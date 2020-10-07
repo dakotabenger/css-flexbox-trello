@@ -66,32 +66,94 @@ line-height: 20px;
 font-weight: normal;
 }
 
-.tabbed-nav__group {
-
-
+.tabbed-nav__container {
+background-color: #f4f5f7;
 }
 
+.tabbed-nav__group {
+border-bottom: 1px solid #dfe1e6;
+display: flex;
+justify-content: center;
+}
 
 .tabbed-nav_link {
-
-
+background-color: white;
+border: 1px solid #dfe1e6;
+border-bottom: 0ch;
+border-radius: 2px;
+font-weight: bold;
+line-height: 20px;
+padding: 10px;
+margin: 0 5px;
+color: #172b4d;
 }
 
 @media screen and (min-width: 500px) {
-
+.tabbed-nav__group * {
+padding: 10px 30px;
+}
 }
 
 @media screen and (max-width: 500px) {
+.tabbed-nav__group, .tabbed-nav__link {
+  display: block;
+}
+}
 
+.board-1 {
+  background-image: url("./board-backgrounds/board-1-background.jpg");
+}
+
+.board-2 {
+  background-image: url('./board-backgrounds/board-2-background.jpg');
+}
+
+.board-3 {
+  background-image: url('./board-backgrounds/board-3-background.jpg');
+}
+
+.board-4 {
+  background-image: url('./board-backgrounds/board-4-background.jpg');
+}
+
+.board-5 {
+  background-image: url('./board-backgrounds/board-5-background.jpg');
+}
+
+.board-6 {
+  background-image: url('./board-backgrounds/board-6-background.jpg');
+}
+
+.board-7 {
+  background-image: url('./board-backgrounds/board-7-background.jpg');
+}
+
+.board-8 {
+  background-image: url('./board-backgrounds/board-8-background.jpg');
+}
+
+.board-9 {
+  background-image: url('./board-backgrounds/board-9-background.jpg');
+}
+
+.board-10 {
+  background-image: url('./board-backgrounds/board-10-background.jpg');
 }
 
 .board__container {
-
-
+margin: 0 auto;
+padding: 32px;
+max-width: 1400px;
+display: flex;
 }
 
 .boards__sidebar {
-
+background-color: #6c547b;
+border-radius: 3px;
+margin: 0 32px 32px 0;
+max-height: 130px;
+max-width: 180px;
+width: 20%;
 
 }
 
